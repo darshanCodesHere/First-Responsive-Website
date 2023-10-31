@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-image:url(img/top_img.jpg);
+    background-size: cover;
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+}
+
+#text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    padding: 0 6vw;
+    color: white;
+    /* background-color: green; */
+}
+
+#text h1{
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+#text-right{
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#text-right p{
+    /* background-color: yellow; */
+    width: 40%;
+    font-size: 13px;
+}
+
+#text-right #icons{
+    /* width: 10%; */
+    /* background-color: #fff; */
+    justify-content: space-around;
+
+}
+
+#text-right #icons a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+#text-right #icons #fb{
+    margin-left: 3px;
+}
+
+#bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+#bmone{
+    padding: 35px 50px;
+    width: 20%;
+    height: 100%;
+    color: black;
+    background-color: white;
+}
+
+#bmone p{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#bmone #icons{
+    margin-top: 65px;
+    font-size: 1.5vw;
+}
+
+#bmone #icons i{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #4444446d;
+    color: white;
+}
+
+#bmtwo{
+    width: 30%;
+    height: 100%;
+    background-image: url(img/orange-coat.jpg);
+    background-size: 150%;
+    background-position: 35% 70%;
+}
+
+#bmthree{
+    width: 20%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+#bmthree-top{
+    color: white;
+    padding: 35px 35px;
+    width: 100%;
+    height: 50%;
+    background-color: #fa4b00;
+}
+
+#bmthree-top p{
+    width: 75%;
+    font-size: 15px;
+    line-height: 100%;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#bmthree-bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    background-image: url(img/painting.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#bmfour{
+    color: white;
+    padding: 35px 65px;
+    width: 30%;
+    height: 100%;
+    background-color: #444; 
+}
+
+#bmfour #comments{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#bmfour #photo{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#bmfour #comments p{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 65%;
+    line-height: 100%;
+}
